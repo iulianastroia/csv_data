@@ -1,7 +1,7 @@
 .dash-spreadsheet-container .dash-spreadsheet-inner table {
     border-collapse: collapse;
     font-family: monospace;
-    --accent: hotpink;
+    --accent: blue;
     --border: lightgrey;
     --text-color: #3c3c3c;
     --hover: #fdfdfd;
