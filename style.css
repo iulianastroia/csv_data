@@ -1,14 +1,7 @@
-.dash-spreadsheet-container .dash-spreadsheet-inner datatable {
-    border-collapse: collapse;
-    font-family: monospace;
-    --accent: blue;
-    --border: lightgrey;
-    --text-color: #3c3c3c;
-    --hover: #fdfdfd;
-    --background-color-ellipses: #fdfdfd;
-    --faded-text: #fafafa;
-    --faded-text-header: #b4b4b4;
-    --selected-background: rgba(255, 65, 54, 0.2);
-    --faded-dropdown: #f0f0f0;
-    --muted: #c8c8c8;
-}
+    css: [{
+        selector: 'td.cell--selected, td.focused',
+        rule: 'background-color: #FF4136;'
+    }, {
+        selector: 'td.cell--selected *, td.focused *',
+        rule: 'color: #3C3C3C !important;'
+    }]
