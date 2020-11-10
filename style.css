@@ -1,4 +1,4 @@
-.dash-spreadsheet-container .dash-spreadsheet-inner table {
+.dash-spreadsheet-container .dash-spreadsheet-inner datatable {
     border-collapse: collapse;
     font-family: monospace;
     --accent: blue;
